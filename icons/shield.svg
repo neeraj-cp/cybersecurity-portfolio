@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 120"
+     fill="none">
+
+  <!-- Shield base -->
+  <path
+    d="M50 4
+       C38 14 25 20 10 22
+       V52
+       C10 76 25 96 50 114
+       C75 96 90 76 90 52
+       V22
+       C75 20 62 14 50 4Z"
+    fill="#77D5FB"/>
+
+  <!-- Upper-right transparent section.
+       Inset from the outer edge so the shield border remains visible. -->
+  <path
+    d="M50 14
+       C61 21 72 26 84 28
+       V53
+       C84 54 84 55 84 56
+       H50Z"
+    fill="white"/>
+
+  <!-- Lower-left transparent section.
+       Inset from the outer edge so the shield border remains visible. -->
+  <path
+    d="M16 56
+       H50
+       V105
+       C30 90 19 73 16 56Z"
+    fill="white"/>
+
+</svg>

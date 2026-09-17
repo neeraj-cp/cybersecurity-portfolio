@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Networking</title>
+  <desc>Minimal blue-cyan globe icon with longitude and latitude lines</desc>
+
+  <defs>
+    <linearGradient id="globeGradient" x1="35%" y1="20%" x2="70%" y2="85%">
+      <stop offset="0%" stop-color="#75E6FF"/>
+      <stop offset="55%" stop-color="#4DBBFF"/>
+      <stop offset="100%" stop-color="#2D7BFF"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="none"
+     stroke="url(#globeGradient)"
+     stroke-width="8"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Outer globe -->
+    <circle cx="128" cy="128" r="78"/>
+
+    <!-- Central longitude -->
+    <path d="M128 50 V206"/>
+
+    <!-- Curved longitude lines -->
+    <path d="M128 50
+             C96 69 78 94 78 128
+             C78 162 96 187 128 206"/>
+
+    <path d="M128 50
+             C160 69 178 94 178 128
+             C178 162 160 187 128 206"/>
+
+    <!-- Latitude lines -->
+    <path d="M57 101
+             C82 91 105 87 128 87
+             C151 87 174 91 199 101"/>
+
+    <path d="M57 155
+             C82 165 105 169 128 169
+             C151 169 174 165 199 155"/>
+
+    <!-- Equator -->
+    <path d="M50 128 H206"/>
+  </g>
+</svg>

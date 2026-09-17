@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Ethical Hacking</title>
+  <desc>Minimal neon cyan padlock icon with a sparkle</desc>
+
+  <g fill="none"
+     stroke="#00D9FF"
+     stroke-width="10"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Padlock shackle -->
+    <path d="M72 108V76
+             C72 45 92 28 128 28
+             C164 28 184 45 184 76
+             V108"/>
+
+    <!-- Padlock body -->
+    <rect x="48" y="96" width="160" height="128" rx="20"/>
+
+    <!-- Center sparkle -->
+    <path d="M128 137
+             C131 148 136 153 147 156
+             C136 159 131 164 128 175
+             C125 164 120 159 109 156
+             C120 153 125 148 128 137Z"/>
+  </g>
+</svg>

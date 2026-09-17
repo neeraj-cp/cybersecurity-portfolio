@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Problem Solving</title>
+  <desc>Minimal cyan line-art light bulb icon representing problem solving</desc>
+
+  <g fill="none"
+     stroke="#00D9FF"
+     stroke-width="9"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Light bulb -->
+    <path d="M82 108
+             C82 78 102 55 128 55
+             C154 55 174 78 174 108
+             C174 128 164 140 154 151
+             C148 158 145 164 145 174
+             H111
+             C111 164 108 158 102 151
+             C92 140 82 128 82 108Z"/>
+
+    <!-- Bulb base -->
+    <path d="M111 174 H145"/>
+    <path d="M114 190 H142"/>
+    <path d="M120 205 H136"/>
+
+    <!-- Rays -->
+    <path d="M128 31 V19"/>
+    <path d="M67 52 L58 43"/>
+    <path d="M189 52 L198 43"/>
+    <path d="M48 108 H35"/>
+    <path d="M208 108 H221"/>
+  </g>
+</svg>

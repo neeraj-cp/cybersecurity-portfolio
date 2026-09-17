@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+        <meta name="description" content="Explore Neeraj C.P.'s cybersecurity notes, quick references, and key learnings covering Linux, networking, web security, ethical hacking, and cybersecurity.">
+        <title>Neeraj | Cyber Notes</title>
+        <link rel="preload" as="image" href="images/bg5.webp" fetchpriority="high">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="leftSide">
+                    <a href="index.html" class="myName">NEERAJ C.P</a>
+                </div>
+
+                <nav class="rightSide" aria-label="Main navigation">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="projects.html">Projects</a>
+                        </li>
+                        <li>
+                            <a href="learning.html">Learning</a>
+                        </li>
+                        <li>
+                            <a href="cyberNotes.html" class="active">Cyber Notes</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="cyberNotesHero">
+                <div class="container">
+                    <div class="heroContent">
+                        <p class="commonHeroIntro"> - Cyber Notes</p>
+                        <h1 class="commonHeroTitle">Capture Today.<br> Stronger Tomorrow.</h1>
+                        <p class="commonHeroBrief">
+                            My personal notes, quick references, and key learnings 
+                            from my cybersecurity journey.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="noteSection">
+                <div class="container">
+                    <div class="noteHeader">
+                        <div class="noteHeading">
+                            <p class="noteLabel">NOTE CATEGORIES</p>
+                            <h2 class="noteTitle">Browse by Topic</h2>
+                        </div>
+                        <p class="noteHeaderRight">
+                            Click on a topic to explore my notes, summaries and quick references.
+                        </p>
+                    </div>
+                    <div class="noteGrid">
+                        <article class="noteCard" data-category="linux">
+                            <div class="noteIcon">
+                                <img src="icons/linux.svg" alt="linux" loading="lazy" decoding="async">
+                            </div>
+                            <div class="noteContent">
+                                <h3>Linux</h3>
+                                <p>Commands, system administration, and practical notes</p>
+                            </div>
+                        </article>
+                        <article class="noteCard" data-category="networking">
+                            <div class="noteIcon">
+                                <img src="icons/networking.svg" alt="networkingImg" loading="lazy" decoding="async">
+                            </div>
+                            <div class="noteContent">
+                                <h3>Networking</h3>
+                                <p>Concepts, protocols, and network troubleshooting.</p>
+                            </div>
+                        </article>
+                        <article class="noteCard" data-category="webSecurity">
+                            <div class="noteIcon">
+                                <img src="icons/webSecurity.svg" alt="webSecurityImg" loading="lazy" decoding="async">
+                            </div>
+                            <div class="noteContent">
+                                <h3>Web Security</h3>
+                                <p>Web vulnerabilities, security testing, and best practices.</p>
+                            </div>
+                        </article>
+                        <article class="noteCard" data-category="ethicalHacking">
+                            <div class="noteIcon">
+                                <img src="icons/ethicalHacking.svg" alt="ethicalHackingImg" loading="lazy" decoding="async">
+                            </div>
+                            <div class="noteContent">
+                                <h3>Ethical Hacking</h3>
+                                <p>
+                                    Vulnerabilities, testing security, 
+                                    and attack techniques.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="noteCard" data-category="cybersecurity">
+                            <div class="noteIcon">
+                                <img src="icons/cybersecurity.svg" alt="Cybersecurity" loading="lazy" decoding="async">
+                            </div>
+                            <div class="noteContent">
+                                <h3>Cybersecurity</h3>
+                                <p>Core concepts, threats, and security practices.</p>
+                            </div>
+                        </article>
+                        <article class="noteCard" data-category="cloudSecurity">
+                            <div class="noteIcon">
+                                <img src="icons/cloudSecurity.svg" alt="Cloud Security" loading="lazy" decoding="async">
+                            </div>
+                            <div class="noteContent">
+                                <h3>Cloud Security</h3>
+                                <p>Cloud concepts, platforms, and security fundamentals.</p>
+                            </div>
+                        </article>
+                        <article class="noteCard" data-category="tools">
+                            <div class="noteIcon">
+                                <img src="icons/tools.svg" alt="Tools Used" loading="lazy" decoding="async">
+                            </div>
+                            <div class="noteContent">
+                                <h3>Tools Used</h3>
+                                <p>Cybersecurity tools, network analysis, testing, and development</p>
+                            </div>
+                        </article>
+                    </div>
+
+
+
+
+                    <div class="notesDisplay hidden">
+                        <div class="notesDisplayHeader">
+                            <h2 class="notesDisplayTitle"></h2>
+                        </div>
+                        <div class="notesGrid"></div>
+                        <button type="button" class="viewMoreButton hidden">View More</button>
+                    </div>
+
+
+
+
+                </div>
+            </section>
+
+            <section class="recentSection">
+                <div class="container">
+                    <div class="recentHeader">
+                        <div class="recentHeading">
+                            <p class="recentLabel">RECENT NOTES</p>
+                            <h2 class="recentTitle">Latest Additions</h2>
+                        </div>
+                    </div>
+                    <div class="recentGrid">
+                        
+                        <ul class="recentList">
+                        <li class="recentItem">
+                            <img src="icons/refernces.svg" class="recentIcon" alt="note icon">
+                            <div class="recentContent">
+                                <div class="recentBrief">
+                                    <span>Introduction to Nmap</span>
+                                </div>
+                                <span class="recentCategory">Tools</span>
+                                <time datetime="2026-08-20">Aug 20, 2026</time>
+                            </div>
+                        </li>
+                            <li class="recentItem">
+                                <img src="icons/refernces.svg" class="recentIcon" alt="note icon">
+                                <div class="recentContent">
+                                    <div class="recentBrief">
+                                    <span>Common Linux Commands</span>
+                                </div>
+                                <span class="recentCategory">Linux</span>
+                                <time datetime="2026-08-18">Aug 18, 2026</time>
+                            </div>
+                            </li>
+                            <li class="recentItem">
+                                <img src="icons/refernces.svg" class="recentIcon" alt="note icon">
+                                <div class="recentContent">
+                                    <div class="recentBrief">
+                                        <span>What is a Firewall?</span>
+                                    </div>
+                                    <span class="recentCategory">Cybersecurity</span>
+                                    <time datetime="2026-08-15">Aug 15, 2026</time>
+                                </div>
+                            </li>
+                            <li class="recentItem">
+                                <img src="icons/refernces.svg" class="recentIcon" alt="note icon">
+                                <div class="recentContent">
+                                    <div class="recentBrief">
+                                        <span>HTTP Methods Explained</span>
+                                    </div>
+                                    <span class="recentCategory">Web Security</span>
+                                    <time datetime="2026-08-15">Aug 15, 2026</time>
+                                </div>      
+                            </li>
+                            <li class="recentItem">
+                                <img src="icons/refernces.svg" class="recentIcon" alt="note icon">
+                                <div class="recentContent">
+                                    <div class="recentBrief">
+                                        <span>OSI Model - Quick Notes</span>
+                                    </div>
+                                    <span class="recentCategory">Networking</span>
+                                    <time datetime="2026-08-15">Aug 15, 2026</time>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="whatsNextSection">
+                <div class="container">
+                    <div class="whatsNextCard">
+                        <div class="whatsNextLeft">
+                            <p class="whatsNextLabel">KEEP GOING</p>
+                            <h2 class="whatsNextTitle">Knowledge Builds <span>Confidence.</span></h2>
+                            <p class="whatsNextBrief">
+                                I'm continuously learning, and adding new notes to strengthen 
+                                <br>my understanding of cybersecurity.
+                            </p>
+                        </div>
+                        <img src="images/notesQuote.webp" class="noteQuote" alt="quote">
+                    </div>
+                </div>
+            </section>                        
+        </main>
+
+        <footer>
+            <div class="container footerContainer">
+                <div class="footerLeft">
+                    <a href="index.html" class="footerName">NEERAJ C.P</a>
+                    <p>Explore. Learn. Secure.</p>
+                </div>    
+                <div class="footerRight">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="learning.html">Learning</a>
+                    <a href="cyberNotes.html">Cyber Notes</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <div class="container">
+                    <p>© 2026 Neeraj C.P.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/cyberNotes.js"></script>
+
+    </body>
+</html>

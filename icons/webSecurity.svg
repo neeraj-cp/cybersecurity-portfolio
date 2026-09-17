@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<title>Web Security</title>
+<desc>Minimal cyan line-art web browser with a security shield</desc>
+<g fill="none" stroke="#00d9ff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Browser window -->
+  <rect x="25" y="35" width="174" height="139" rx="9"/>
+  <path d="M25 70h174"/>
+  <circle cx="48" cy="52" r="4" fill="#00d9ff" stroke="none"/>
+  <circle cx="65" cy="52" r="4" fill="#00d9ff" stroke="none"/>
+  <circle cx="82" cy="52" r="4" fill="#00d9ff" stroke="none"/>
+
+  <!-- Terminal/code symbol -->
+  <path d="M55 105l22 20-22 20"/>
+  <path d="M91 145h31"/>
+
+  <!-- Security shield -->
+  <path d="M170 91c-17 10-31 11-45 14v28c0 28 17 45 45 57 28-12 45-29 45-57v-28c-14-3-28-4-45-14Z"/>
+  <path d="M154 130l11 11 22-25"/>
+</g>
+</svg>

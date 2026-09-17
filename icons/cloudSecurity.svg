@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Cloud Security</title>
+  <desc>Minimal cyan-blue cloud security icon with a shield and padlock</desc>
+
+  <g fill="none"
+     stroke="#6FD7FB"
+     stroke-width="9"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Cloud outline.
+         The bottom center is intentionally open so no cloud line crosses the shield. -->
+    <path d="M70 173
+             H55
+             C39 173 28 159 28 141
+             C28 119 44 103 66 100
+             C72 70 97 49 128 49
+             C158 49 183 69 188 99
+             C208 101 224 116 224 136
+             C224 157 208 173 185 173
+             H185"/>
+
+    <!-- Security shield -->
+    <path d="M128 91
+             C144 103 159 109 179 115
+             V145
+             C179 179 158 204 128 221
+             C98 204 77 179 77 145
+             V115
+             C97 109 112 103 128 91Z"/>
+
+    <!-- Padlock -->
+    <rect x="93" y="137" width="70" height="58" rx="11"/>
+
+    <!-- Lock shackle -->
+    <path d="M108 137
+             V119
+             C108 91 148 91 148 119
+             V137"/>
+
+    <!-- Keyhole -->
+    <circle cx="128" cy="160" r="6" fill="#6FD7FB" stroke="none"/>
+    <path d="M128 166 V178"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Hands-On Practice</title>
+  <desc>Minimal cyan line-art gear icon representing practical hands-on work</desc>
+
+  <g fill="none"
+     stroke="#00D9FF"
+     stroke-width="9"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Gear -->
+    <path d="M128 42
+             L138 42 L142 55
+             C148 57 154 59 159 63
+             L172 58 L183 69 L178 82
+             C182 87 185 93 187 99
+             L201 103 L201 119
+             L187 123
+             C185 129 182 135 178 140
+             L183 153 L172 164
+             L159 159
+             C154 163 148 166 142 168
+             L138 182
+             L118 182
+             L114 168
+             C108 166 102 163 97 159
+             L84 164
+             L73 153
+             L78 140
+             C74 135 71 129 69 123
+             L55 119
+             L55 103
+             L69 99
+             C71 93 74 87 78 82
+             L73 69
+             L84 58
+             L97 63
+             C102 59 108 57 114 55
+             L118 42 Z"/>
+
+    <!-- Center -->
+    <circle cx="128" cy="111" r="27"/>
+  </g>
+</svg>

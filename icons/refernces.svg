@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Quick references icon">
+  <g fill="none" stroke="#35D7FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Document -->
+    <path d="M62 24h94l38 38v170H62z"/>
+    <path d="M156 24v40h38"/>
+    <!-- Reference lines -->
+    <path d="M88 104h72"/>
+    <path d="M88 132h72"/>
+    <path d="M88 160h48"/>
+    <!-- Bookmark -->
+    <path d="M152 112v78l22-15 22 15v-78"/>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Continuous Learning</title>
+  <desc>Minimal cyan line-art open book icon</desc>
+
+  <g fill="none"
+     stroke="#00D9FF"
+     stroke-width="9"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Left page -->
+    <path d="M128 66
+             C108 51 84 49 57 57
+             V190
+             C83 183 106 186 128 201
+             Z"/>
+
+    <!-- Right page -->
+    <path d="M128 66
+             C148 51 172 49 199 57
+             V190
+             C173 183 150 186 128 201
+             Z"/>
+
+    <!-- Center fold -->
+    <path d="M128 66 V201"/>
+
+    <!-- Page details -->
+    <path d="M73 86 C90 82 106 85 119 93"/>
+    <path d="M73 111 C90 107 106 110 119 118"/>
+    <path d="M183 86 C166 82 150 85 137 93"/>
+    <path d="M183 111 C166 107 150 110 137 118"/>
+  </g>
+</svg>

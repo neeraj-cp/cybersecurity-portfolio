@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Cybersecurity</title>
+  <desc>Minimal cybersecurity shield and lock icon</desc>
+
+  <g fill="none"
+     stroke="#6FD7FB"
+     stroke-width="10"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Shield -->
+    <path d="M128 24
+             L198 52
+             V112
+             C198 162 170 202 128 226
+             C86 202 58 162 58 112
+             V52
+             Z"/>
+
+    <!-- Lock body -->
+    <rect x="91" y="112" width="74" height="60" rx="10"/>
+
+    <!-- Lock shackle -->
+    <path d="M105 112
+             V91
+             C105 62 151 62 151 91
+             V112"/>
+
+    <!-- Keyhole -->
+    <circle cx="128" cy="140" r="5"
+            fill="#6FD7FB"
+            stroke="none"/>
+
+    <path d="M128 145 V158"/>
+  </g>
+</svg>
